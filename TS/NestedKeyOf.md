@@ -13,3 +13,7 @@ type NestedKeyOf<T> = {
     : `${P}`;
 }[Exclude<keyof T & (string | number), ArrayMethods>];
 ```
+
+---
+
+## Examples

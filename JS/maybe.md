@@ -19,3 +19,7 @@ const Nothing = () => ({
 
 export const Maybe = x => (x === null || x === undefined ? Nothing() : Just(x));
 ```
+
+---
+
+## Examples

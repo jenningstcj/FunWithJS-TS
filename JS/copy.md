@@ -12,3 +12,7 @@ export const copyObj2 = x => Object.assign({}, x);
 export const deepCopy = x => JSON.parse(JSON.stringify(x));
 
 ```
+
+---
+
+## Examples

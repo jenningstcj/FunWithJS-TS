@@ -22,3 +22,7 @@ console.log(result);
 ```
 
 A more imperative approach might involve nesting several for/foreach loops and would be very rigid.
+
+---
+
+## Examples

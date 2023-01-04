@@ -25,3 +25,7 @@ export const tryCatch = f => {
   }
 };
 ```
+
+---
+
+## Examples

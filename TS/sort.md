@@ -35,4 +35,8 @@ const sort = <T>(arr: T[], prop: keyof T, order: "asc" | "desc"): T[] => order =
 ```
 
 
+---
+
+## Examples
+
 TODO add deep sort using lens

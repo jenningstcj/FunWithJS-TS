@@ -5,3 +5,7 @@ Creates a context to perform operations.  In thise case, using the array prototy
 ```js
 const of = (...args) => [...args];
 ```
+
+---
+
+## Examples

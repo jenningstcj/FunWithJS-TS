@@ -7,3 +7,7 @@ type LoanPurposeTuple = typeof LoanPurposes;
 
 type LoanPurposeUnion = LoanPurposeTuple[number]; //Purchase | Refinance | MortgageFirst
 ```
+
+---
+
+## Examples

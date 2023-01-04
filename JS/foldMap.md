@@ -14,3 +14,7 @@ MapReduce does a mapping over the collection and then the reduction iterating ov
 const mapReduce = (collection, mapFn, reduceFn) =>
   collection.map(mapFn).reduce(reduceFn, 0);
 ```
+
+---
+
+## Examples

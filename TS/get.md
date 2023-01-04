@@ -14,4 +14,8 @@ type NestedKeyOf<T> = {
 const get = <T>(value: T, path: NestedKeyOf<T>) => ...
 ```
 
+---
+
+## Examples
+
 TODO finish

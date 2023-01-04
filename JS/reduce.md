@@ -19,3 +19,7 @@ const map = (f, arr) =>
 const filter = f => arr => 
 arr.reduce((acc, val) => f(val) ? acc.concat(val) : acc, []);
 ```
+
+---
+
+## Examples
