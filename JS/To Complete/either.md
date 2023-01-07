@@ -5,14 +5,20 @@ export const Ok = x => ({
   map: f => Ok(f(x)),
   chain: f => f(x),
   fold: (f, g) => g(x),
-  log: () => console.log(`Ok(${JSON.stringify(x)})`)
+  log: () => console.log(`Ok(${JSON.stringify(x)})`),
+  isOk: () => true,
+  isError: () => false,
+  value: () => x
 });
 
 export const Error = x => ({
   map: f => Error(x),
   chain: f => Error(x),
   fold: (f, g) => f(x),
-  log: () => console.error(`Error(${JSON.stringify(x)})`)
+  log: () => console.error(`Error(${JSON.stringify(x)})`),
+  isOk: () => false,
+  isError: () => true,
+  value: () => x
 });
 
 export const fromNullable = x => (x != null ? Ok(x) : Error(null));
