@@ -15,3 +15,13 @@ const prependA = prepend('A');
 
 prependA(['B','C','D']); // [ 'A', 'B', 'C', 'D' ]
 ```
+
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+
+| Previous     |      Next |
+|--------------|-----------:|
+| []()  | [range](JS/../range.md)      |
