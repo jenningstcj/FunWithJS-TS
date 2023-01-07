@@ -1,4 +1,4 @@
-This is a collection of JavaScript and TypeScript functions that I have written in the past that I find helpful.
+This is a collection of JavaScript and TypeScript functions that I have written in the past that I find helpful.  These are listed loosely in order where some build on prior ones.
 
 # Table of Contents
 
@@ -20,12 +20,3 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 
 ## TS
 
-<style>
-    table {
-        width: 100%;
-    }
-</style>
-
-| Previous     |      Next |
-|--------------|-----------:|
-| []()  | []()      |

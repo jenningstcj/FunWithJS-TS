@@ -15,8 +15,3 @@ export const range = (start, end) => [...Array(end + 1).keys()].slice(start);
 
 console.log(range(1,5)); // [ 1, 2, 3, 4, 5 ]
 ```
-
-
-| < Previous   |   |      Next > |
-|--------------|---|-----------:|
-| [prepend](JS/../prepend.md)  | --------------------------------------------  | [copy](JS/../copy.md)      |
