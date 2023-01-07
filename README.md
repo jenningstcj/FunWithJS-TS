@@ -11,7 +11,7 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 - [pipe](JS/pipe.md)
 - [compose](JS/compose.md)
 - [Of and Contexts](JS/of.md)
-- maybe
+- [maybe](JS/maybe.md)
 - either
 - reduce
 - ap
