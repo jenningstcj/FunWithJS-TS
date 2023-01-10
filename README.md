@@ -12,11 +12,11 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 - [compose](JS/compose.md)
 - [Of and Contexts](JS/of.md)
 - [maybe](JS/maybe.md)
-- either
-- reduce
-- ap
-- sequence
-- foldMap
+- [either](JS/either.md)
+- [reduce](JS/reduce.md)
+- [ap](JS/ap.md)
+- [sequence](JS/sequence.md)
+- [foldMap](JS/foldMap.md)
 
 ## TS
 
