@@ -84,7 +84,7 @@ Interesting note, that while many of these times are similar or have negligible 
 | Method | Time |
 | --- | --- |
 |10,000 sorted strings| |
-| Array.Find | 4.043ms |
+| Array.Find | 0.733ms |
 | Array.Some | 0.264ms |
 | Array.Includes | 0.082ms |
 | Binary Search | 0.109ms |
