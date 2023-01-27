@@ -75,10 +75,11 @@ The Binary Search really shines when there is a very large list of data.  Let's 
 | Array.Find | 0.178ms |
 | Array.Some | 0.194ms |
 | Array.Includes | 0.057ms |
+| Array.indexOf | 0.035ms |
 | Binary Search | 0.091ms |
 | Recursive Binary Search | 0.085ms |
 
-Interesting note, that while many of these times are similar or have negligible difference, the Array.Includes is faster than all other methods when the data set is reasonable small such as 1000 items.
+Interesting note, that while many of these times are similar or have negligible difference, the Array.indexOf and Array.Includes is faster than all other methods when the data set is reasonable small such as 1000 items.
 
 
 | Method | Time |
@@ -87,10 +88,11 @@ Interesting note, that while many of these times are similar or have negligible 
 | Array.Find | 0.733ms |
 | Array.Some | 0.264ms |
 | Array.Includes | 0.082ms |
+| Array.indexOf | 0.037ms |
 | Binary Search | 0.109ms |
 | Recursive Binary Search | 0.092ms |
 
-Even at 10,000 random strings, the Array.Includes is faster than a binary search, but not by much.
+Even at 10,000 random strings, Array.indexOf is fastest and Array.Includes is faster than a binary search, but not by much.
 
 | Method | Time |
 | --- | --- |
@@ -98,11 +100,14 @@ Even at 10,000 random strings, the Array.Includes is faster than a binary search
 | Array.Find | 0.707ms |
 | Array.Some | 1.002ms |
 | Array.Includes | 0.279ms |
+| Array.indexOf | 0.097ms |
 | Binary Search | 0.34ms |
 | Recursive Binary Search | 0.263ms|
 
 
-Even at 500,000 items Array.Includes is on par with the binary search, but both the binary search and Array.Includes is substantially faster than Array.Find and Array.Some.  
+Even at 500,000 items Array.indexOf is the fastest and Array.Includes is on par with the binary search, but both the binary search and Array.Includes is substantially faster than Array.Find and Array.Some.  
+
+In short, Array.indexOf might be your fastest way to find an item in an array, with Array.includes being second.  Binary Search can still be worth it especially when searching a large list of complex object by some nested value. But binary search also adds in complexity that not all engineers on your team may understand.  For simple arrays of values, it just might be simplest and fastest to use a built-in function such as Array.indexOf or Array.includes.  
 
 For those interested in running their own experiments, here is the code I used to generate the array of strings:
 
@@ -140,6 +145,14 @@ console.time("Includes");
 arr.includes(valueToSearch);
 
 console.timeEnd("Includes");
+//////////////////////////////////////////////////
+
+///////////////////////////////////////////////////
+console.time("indexOf");
+
+arr.indexOf(valueToSearch);
+
+console.timeEnd("indexOf");
 //////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////
