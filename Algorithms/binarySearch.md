@@ -107,7 +107,7 @@ Even at 10,000 random strings, Array.indexOf is fastest and Array.Includes is fa
 
 Even at 500,000 items Array.indexOf is the fastest and Array.Includes is on par with the binary search, but both the binary search and Array.Includes is substantially faster than Array.Find and Array.Some.  
 
-In short, Array.indexOf might be your fastest way to find an item in an array, with Array.includes being second.  Binary Search can still be worth it especially when searching a large list of complex object by some nested value. But binary search also adds in complexity that not all engineers on your team may understand.  For simple arrays of values, it just might be simplest and fastest to use a built-in function such as Array.indexOf or Array.includes.  
+In short, Array.indexOf might be your fastest way to find an item in an array, with Array.includes being second.  Binary Search can still be worth it especially when searching a large list of complex object by some nested value. But binary search also adds in complexity that not all engineers on your team may understand.  For simple arrays of values, it just might be simplest and fastest to use a built-in function such as Array.indexOf or Array.includes.  Simplicity can be genius.
 
 For those interested in running their own experiments, here is the code I used to generate the array of strings:
 
