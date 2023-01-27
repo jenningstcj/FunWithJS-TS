@@ -21,3 +21,7 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 ## TS
 
 coming soon
+
+## Algorithms
+
+- [Binary Search](Algorithms/binarySearch.md)
