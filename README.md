@@ -20,7 +20,7 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 
 ## TS
 
-coming soon
+coming soon!
 
 ## Algorithms
 
