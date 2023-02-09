@@ -17,10 +17,18 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 - [ap](JS/ap.md)
 - [sequence](JS/sequence.md)
 - [foldMap](JS/foldMap.md)
+- [pause](JS/pause.md)
+- [repeatWithDelay](JS/repeatWithDelay.md)
 
 ## TS
 
-coming soon!
+- [Union Types](TS/union-types.md)
+- [SomePartial](TS/SomePartial.md)
+- [SomeRequired](TS/SomeRequired.md)
+- [NestedKeyOf](TS/NestedKeyOf.md)
+- [get](TS/get.md)
+- [sort](TS/sort.md)
+...Many of the JS functions can be fully typed in TS, too!
 
 ## Algorithms
 

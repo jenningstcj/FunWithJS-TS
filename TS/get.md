@@ -1,5 +1,7 @@
 # Get Lens
 
+Gets data from any property in a deeply nested object.
+
 ```ts
 const arr: [] = [];
 

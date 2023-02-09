@@ -34,7 +34,6 @@ const sort = <T>(arr: T[], prop: keyof T, order: "asc" | "desc"): T[] => order =
     : arr.sort(sortDescending(prop));
 ```
 
-
 ---
 
 ## Examples
