@@ -28,6 +28,7 @@ This is a collection of JavaScript and TypeScript functions that I have written 
 - [NestedKeyOf](TS/NestedKeyOf.md)
 - [get](TS/get.md)
 - [sort](TS/sort.md)
+
 ...Many of the JS functions can be fully typed in TS, too!
 
 ## Algorithms
